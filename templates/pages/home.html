@@ -81,7 +81,11 @@
           alert("An eeor occured, please try again.")
         }
         //console.log(contentErrorMsg)
-      } else if(xhr.status === 500) {
+      } else if(xhr.status === 401) {
+        alert("You must Login first!")
+        window.location.href="/login"
+      } 
+      else if(xhr.status === 500) {
         alert("There was a problem with server, please try again.")
       }
 
