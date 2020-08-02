@@ -9,7 +9,7 @@ const appEl = document.getElementById('root')
 if (appEl) {
     ReactDOM.render(<App />, appEl);
 }
-const tweetsEl = document.getElementById("tweetme-2")
+const tweetsEl = document.getElementById("twident")
 if (tweetsEl) {
     ReactDOM.render(<TweetsComponent />, tweetsEl);
 }
